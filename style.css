@@ -1,0 +1,51 @@
+/* Custom Background Shape */
+.hero-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 85% 20%, #8b5cf6 0%, #ec4899 100%);
+    clip-path: circle(70% at 95% 10%);
+    z-index: 0;
+}
+
+/* Phone Mockup Styling */
+.iphone-mockup {
+    width: 300px;
+    height: 600px;
+    background: #111;
+    border: 12px solid #1f2937;
+    border-radius: 3rem;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 2.2rem;
+    overflow: hidden;
+}
+
+/* Shadows & Animations */
+.app-shadow {
+    box-shadow: 0 50px 100px -20px rgba(0,0,0,0.3);
+}
+
+.nav-scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Animasi sederhana untuk angka stats */
+.stat-item {
+    transition: transform 0.3s ease;
+}
+.stat-item:hover {
+    transform: translateY(-5px);
+}
